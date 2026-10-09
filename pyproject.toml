@@ -29,6 +29,7 @@ dependencies = [
     "html5lib",
     "werkzeug>=1.0",
     "bleach",
+    "defusedxml",
     "setuptools",
 ]
 
