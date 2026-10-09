@@ -12,7 +12,7 @@ import textwrap
 from collections import defaultdict
 from time import mktime, strptime, time
 from urllib.parse import urlparse
-from xml.etree import ElementTree
+from defusedxml import ElementTree
 
 from isso.utils import anonymize
 
